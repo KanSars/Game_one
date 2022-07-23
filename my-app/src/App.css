@@ -1,0 +1,47 @@
+.App {
+  position: relative;
+
+  top: 150px;
+  left: 150px;
+}
+
+.field {
+  position: relative;
+  text-align: center;
+
+  border: 2px solid black;
+
+  width: 150px;
+  height: 150px;
+}
+
+.row {
+  box-sizing: border-box;
+  height: 50px;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  float: left;
+}
+
+.moves {
+  border: 1px solid green;
+  position: relative;
+  margin-top: 20px;
+
+  width: 200px;
+  height: 50px;
+}
+
+.move {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  float: left;
+}
